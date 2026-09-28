@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: mahayatra-backend
+
+  datasource:
+    url: jdbc:postgresql://localhost:5433/mahayatra_db
+    username: root
+    password: password
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: mahayatra-group
+      auto-offset-reset: earliest
+
+jwt:
+  secret: 4261656C64756E674261656C64756E674261656C64756E674261656C64756E67
+  expiration: 86400000
