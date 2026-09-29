@@ -3,7 +3,7 @@ package com.mahayatra.controller;
 import com.mahayatra.entity.Role;
 import com.mahayatra.entity.User;
 import com.mahayatra.repository.UserRepository;
-import com.mahayatra.security.JwtUtil;
+import backend.backend.security.JwtUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;

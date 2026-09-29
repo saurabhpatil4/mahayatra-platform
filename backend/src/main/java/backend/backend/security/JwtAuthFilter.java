@@ -1,4 +1,4 @@
-package com.mahayatra.security;
+package backend.backend.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

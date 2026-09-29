@@ -1,4 +1,4 @@
-package com.mahayatra.security;
+package backend.backend.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
